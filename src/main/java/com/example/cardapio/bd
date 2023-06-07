@@ -1,0 +1,13 @@
+create table foods (
+	id integer primary key,
+	title varchar(50),
+	image varchar(500),
+	price float
+)
+
+drop table foods
+
+insert into foods(id, title, image, price) values (1, 'pão', 'https://grupodocedoce.com.br/storage/produtos/138/panutti-pao-frances-1582714515.JPG', 2)
+insert into foods(id, title, image, price) values (2, 'pastel', 'https://grupodocedoce.com.br/storage/produtos/138/panutti-pao-frances-1582714515.JPG', 12.00)
+
+select * from foods
